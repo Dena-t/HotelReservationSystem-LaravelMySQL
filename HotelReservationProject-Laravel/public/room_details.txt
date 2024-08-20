@@ -1,0 +1,6 @@
+1,101,2,$150,Air Conditioning,Free Wi-Fi,TV
+2,102,2,$180,Air Conditioning,Free Wi-Fi,TV,Mini Bar
+3,103,1,$120,Air Conditioning,Free Wi-Fi
+4,104,3,$200,Air Conditioning,Free Wi-Fi,TV,Mini Bar
+5,105,2,$130,Air Conditioning
+6,106,4,$110,Air Conditioning,Free Wi-Fi,TV
