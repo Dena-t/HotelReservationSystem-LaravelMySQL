@@ -1,0 +1,6 @@
+  /* Custom CSS for the full-width carousel */
+  .carousel-item img {
+    width: 100%; /* Set width to 100% of the container */
+    height: auto; /* Maintain aspect ratio */
+    margin: auto; /* Center the image horizontally */
+  }

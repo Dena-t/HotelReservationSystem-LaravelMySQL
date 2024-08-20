@@ -1,0 +1,22 @@
+https://alpinekpk.com/wp-content/uploads/2022/05/deluxe-1024x683.jpg
+https://alpinekpk.com/wp-content/uploads/2023/03/villa5-room-4.jpg
+https://alpinekpk.com/wp-content/uploads/2022/05/vip-suite-alpine-hotel.jpg
+
+
+    <!-- Carousel -->
+    <div id="roomCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+        @foreach ($imageUrls as $imageUrl)
+       <img src="{{ $imageUrl }}" alt="Room Image">
+       @endforeach
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#roomCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#roomCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- End Carousel
